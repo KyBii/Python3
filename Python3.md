@@ -90,7 +90,7 @@ while coba < batas:
     coba += 1
 ```
 ### VS Code & Output
-![W5](https://user-images.githubusercontent.com/93004722/140632737-3056242e-515c-4671-9fc9-55a99e797a96.PNG)
+![R5](https://user-images.githubusercontent.com/93004722/140697358-889cd843-fe6c-4e1c-89fd-4164ca579623.PNG)
 
 ## 6. Aplikasi Kalkulator
 ### Source Code
@@ -123,4 +123,4 @@ while perintah != "exit":
 print("Terima kasih!")
 ```
 ### VS Code & Output
-![W6](https://user-images.githubusercontent.com/93004722/140632818-b9c03018-9234-4fcd-9afc-6755b2b8fa7f.PNG)
+![R6](https://user-images.githubusercontent.com/93004722/140697750-c6c033ba-6398-4c44-8991-14c6da3a9d42.PNG)
