@@ -74,12 +74,20 @@ print("Finish")
 ### Source Code
 
 ```py
-nomor = (10 + 5) * 2 ** 4
-print(nomor)
-#TANDA KURUNG
-#PERPANGKATAN 
-#PERKALIAN ATAU PEMBAGIAN
-#PEJUMLAHAN ATAU PENGURANGAN
+coba = 0
+nomor_togel = 7
+batas = 3
+
+while coba < batas:
+    tebakan = input("Masukkan angka (1-9) : ")
+    tebakan = int(tebakan)
+    if tebakan == nomor_togel:
+        print("Selamat anda benar")
+        break
+    
+    else :
+        print("Anda salah")
+    coba += 1
 ```
 ### VS Code & Output
 ![W5](https://user-images.githubusercontent.com/93004722/140632737-3056242e-515c-4671-9fc9-55a99e797a96.PNG)
@@ -88,9 +96,31 @@ print(nomor)
 ### Source Code
 
 ```py
-nomor = 7.7
-nomor = round(nomor)
-print(nomor)
+perintah = ""
+
+while perintah != "exit":
+    perintah = input("Perintah : ")
+    if perintah == "exit":
+        break
+    
+    if perintah != '+' and perintah != '-' and perintah != '*' and perintah != '/':
+        print("Perintah tak dikenali")
+        continue
+    
+    a = int(input("Masukkan angka pertama : "))
+    b = int(input("Masukkan angka kedua : "))
+    
+    if perintah == '+':
+        hasil = a + b
+    elif perintah == '-':
+        hasil = a - b
+    elif perintah == '*':
+        hasil = a * b
+    elif perintah == '/':
+        hasil = a / b
+   
+    print(hasil)
+print("Terima kasih!")
 ```
 ### VS Code & Output
 ![W6](https://user-images.githubusercontent.com/93004722/140632818-b9c03018-9234-4fcd-9afc-6755b2b8fa7f.PNG)
